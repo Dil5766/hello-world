@@ -1,6 +1,6 @@
 node{
    stage('SCM Checkout'){
-    https:'//github.com/Dil5766/hello-world/'
+   git 'https://github.com/Dil5766/hello-world/'
    }
    stage('Compile-Package'){
       // Get maven home path
